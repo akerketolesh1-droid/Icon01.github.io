@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Контакты | Éclisse</title>
+<link rel="stylesheet" href="contact1.css">
+</head>
+
+<body>
+
+<!-- ШАПКА -->
+<header class="header">
+    <div class="logo">ÉCLISSE</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="colleg.html">Коллекции</a>
+        <a href="model.html" target="_blank">Модели</a>
+        <a href="amba.html" target="_blank">Амбассадоры</a>
+    </nav>
+</header>
+
+<h1 class="title">Связаться с нами</h1>
+
+<!-- КОНТАКТЫ -->
+<section class="contacts">
+    <p>Франция</p>
+    <p>+33 6 67 69 77</p>
+    <p>eclisse@mail.com</p>
+</section>
+
+<!-- ФОРМА -->
+<section class="form-section">
+
+    <h2>Заявка</h2>
+
+    <form onsubmit="sendForm(event)">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Телефон" required>
+
+        <select required>
+            <option value="">Выберите категорию</option>
+            <option>Париж</option>
+            <option>Ницца</option>
+            <option>Актобе</option>
+            <option>Марсель</option>
+            <option>Актау</option>
+        </select>
+
+        <textarea placeholder="Комментарий"></textarea>
+
+        <button type="submit">Отправить заявку</button>
+    </form>
+
+</section>
+
+<!-- ФУТЕР -->
+<footer class="footer">
+    <div class="footer-content">
+        <h3>ÉCLISSE</h3>
+        <p>© 2026 Все права защищены</p>
+
+        <div class="socials">
+            <a href="https://instagram.com/@off.eclisse01" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@Off.eclisse01" target="_blank">YouTube</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<script>
+function sendForm(event) {
+    event.preventDefault();
+    alert("Заявка отправлена");
+}
+</script>
+
+</body>
+</html>

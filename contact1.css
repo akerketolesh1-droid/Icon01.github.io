@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: black;
+    color: white;
+}
+
+/* ШАПКА */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.logo {
+    color: gold;
+    font-size: 26px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* ЗАГОЛОВОК */
+.title {
+    text-align: center;
+    padding: 80px 20px;
+    color: gold;
+}
+
+/* КОНТАКТЫ */
+.contacts {
+    text-align: center;
+    line-height: 2;
+}
+
+/* ФОРМА */
+.form-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.form-section h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    margin: 10px 0;
+    padding: 12px;
+    background: black;
+    border: 1px solid gold;
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d4af37;
+}
+
+/* ФУТЕР */
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid gold;
+}
